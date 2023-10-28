@@ -1,0 +1,52 @@
+
+    *{
+    padding: 0;
+    margin: 1% 15% 0% 8%;
+    box-sizing:border-box;
+}
+
+.Table{
+    width: 100%;
+
+}
+.Table ,td,th{
+    border: 1px solid silver;
+  }
+.Table tr:nth-child(1){
+    background-color: yellow;
+    text-align: right;
+    
+    
+}
+
+.Table tr:nth-child(2) td:nth-child(1){
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.701);
+}
+
+.Table .Row5{
+          font-weight: bold;
+          text-align: center;
+
+}
+p{
+    text-align: center;
+}
+hr{
+    width: 100%;
+
+}
+.div1{
+        width: 50%;
+}
+
+.div1 p{
+    border-bottom: 2px solid silver;
+    margin: 10px;
+}
+
+.div1{
+     position: absolute;
+     left: 25%;
+     top: 25%;
+}
